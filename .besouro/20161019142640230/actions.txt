@@ -108,3 +108,5 @@ RefactoringAction 1476877848259 PlanetExplorer.java ADD String EAST FIELD
 EditAction 1476877848259 PlanetExplorer.java 1821 3 9 0
 RefactoringAction 1476877863750 PlanetExplorer.java ADD String TURN_LEFT FIELD
 EditAction 1476877863750 PlanetExplorer.java 1873 3 9 0
+RefactoringAction 1476877877977 PlanetExplorer.java ADD String WEST FIELD
+EditAction 1476877877993 PlanetExplorer.java 1915 3 9 0

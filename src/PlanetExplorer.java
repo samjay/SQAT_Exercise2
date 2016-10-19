@@ -157,6 +157,9 @@ public class PlanetExplorer {
 		default:
 			throw new PlanetExplorerException();
 		}
+		if(yCoordinate<0){
+			yCoordinate=planet.getWidth()-1;
+		}
 
 	}
 }

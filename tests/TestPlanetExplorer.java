@@ -103,4 +103,12 @@ public class TestPlanetExplorer {
 		assertEquals("(0,99,N)", position);
 	}
 	
+	@Test
+	public void test_executeCommand_wrap_moveForward_00Wto990N() throws PlanetExplorerException{		
+		explorer.executeCommand("l");
+		String position=explorer.executeCommand("f");
+		
+		assertEquals("(99,0,N)", position);
+	}
+	
 }

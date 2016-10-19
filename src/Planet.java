@@ -23,15 +23,20 @@ public class Planet {
 		
 		return this.obstacles;
 	}
-	public void setObstacles(String obstacles2) {
+	public void setObstacles(String obstacles2) throws PlanetExplorerException {
 		obstacles = new ArrayList<>();
 		String[] obstacleStrings=obstacles2.split("[)]");
 		for(String obsString:obstacleStrings){
 			obsString=obsString.substring(1, obsString.length());
 			String[] coordinates=obsString.split("[,]");
 			Obstacle obs= new Obstacle();
-			obs.setX(Integer.parseInt(coordinates[0]));
-			obs.setY(Integer.parseInt(coordinates[1]));
+			int obsX=Integer.parseInt(coordinates[0]);
+			int obsy=Integer.parseInt(coordinates[1]);
+			if(obsX>=length || obsy>=width){
+				throw new PlanetExplorerException();
+			}
+			obs.setX(obsX);
+			obs.setY(obsy);
 			obstacles.add(obs);
 		}
 	}	

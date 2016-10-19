@@ -388,3 +388,4 @@ RefactoringAction 1476883285487 TestPlanetExplorer.java RENAME test_executeComma
 RefactoringAction 1476883287031 TestPlanetExplorer.java RENAME test_executeCommandtour6by6()=>void test_executeCommandtour6by6pla() METHOD
 RefactoringAction 1476883288575 TestPlanetExplorer.java RENAME test_executeCommandtour6by6pla()=>void test_executeCommandtour6by6planet() METHOD
 EditAction 1476883304098 TestPlanetExplorer.java 5263 19 64 19
+EditAction 1476883342349 TestPlanetExplorer.java 5278 19 64 19

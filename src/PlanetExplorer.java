@@ -5,6 +5,7 @@
 
 public class PlanetExplorer {
 	
+	private static final String NORTH = "N";
 	Planet planet;
 	Integer xCoordinate= 0;
 	Integer yCoordinate= 0;
@@ -24,7 +25,7 @@ public class PlanetExplorer {
 		
 		xCoordinate=0;
 		yCoordinate=0;
-		facing="N";
+		facing=NORTH;
 		
 	}
 	

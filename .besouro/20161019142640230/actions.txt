@@ -96,3 +96,9 @@ EditAction 1476877678322 TestPlanetExplorer.java 809 4 9 5
 UnitTestCaseAction 1476877681741 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877681741 TestPlanetExplorer.java FAIL
 EditAction 1476877718308 PlanetExplorer.java 1681 3 9 0
+UnitTestCaseAction 1476877723069 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877723084 TestPlanetExplorer.java OK
+RefactoringAction 1476877751726 Directions.java ADD Directions.java CLASS
+RefactoringAction 1476877799837 Directions.java REMOVE Directions.java CLASS
+RefactoringAction 1476877816404 PlanetExplorer.java ADD String NORTH FIELD
+EditAction 1476877816404 PlanetExplorer.java 1725 3 9 0

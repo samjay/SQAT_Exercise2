@@ -257,3 +257,11 @@ UnitTestSessionAction 1476879875088 TestPlanetExplorer.java FAIL
 UnitTestCaseAction 1476880014197 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476880014197 TestPlanetExplorer.java FAIL
 EditAction 1476880029297 TestPlanetExplorer.java 2877 13 34 14
+UnitTestCaseAction 1476880032342 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476880032342 TestPlanetExplorer.java OK
+RefactoringAction 1476880038754 TestPlanetExplorer.java ADD void test_executeCommand_wrap_moveForward_00Wto990N()/2 METHOD
+RefactoringAction 1476880050594 TestPlanetExplorer.java RENAME test_executeCommand_wrap_moveForward_00Wto990N()/2=>void test_executeCommand_wrap_moveForward_00Nto990N() METHOD
+RefactoringAction 1476880053168 TestPlanetExplorer.java RENAME test_executeCommand_wrap_moveForward_00Nto990N()=>void test_executeCommand_wrap_moveForward_990Nto990N() METHOD
+RefactoringAction 1476880057802 TestPlanetExplorer.java RENAME test_executeCommand_wrap_moveForward_990Nto990N()=>void test_executeCommand_wrap_moveForward_990Nto0N() METHOD
+RefactoringAction 1476880058831 TestPlanetExplorer.java RENAME test_executeCommand_wrap_moveForward_990Nto0N()=>void test_executeCommand_wrap_moveForward_990Nto00N() METHOD
+EditAction 1476880124102 TestPlanetExplorer.java 3135 14 37 15

@@ -265,3 +265,6 @@ RefactoringAction 1476880053168 TestPlanetExplorer.java RENAME test_executeComma
 RefactoringAction 1476880057802 TestPlanetExplorer.java RENAME test_executeCommand_wrap_moveForward_990Nto990N()=>void test_executeCommand_wrap_moveForward_990Nto0N() METHOD
 RefactoringAction 1476880058831 TestPlanetExplorer.java RENAME test_executeCommand_wrap_moveForward_990Nto0N()=>void test_executeCommand_wrap_moveForward_990Nto00N() METHOD
 EditAction 1476880124102 TestPlanetExplorer.java 3135 14 37 15
+UnitTestCaseAction 1476880127318 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476880127318 TestPlanetExplorer.java FAIL
+EditAction 1476880135820 TestPlanetExplorer.java 3134 14 37 15

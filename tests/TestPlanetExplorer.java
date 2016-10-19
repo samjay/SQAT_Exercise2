@@ -87,4 +87,11 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(0,1,S)", position);
 	}
+	
+	@Test
+	public void test_executeCommand_severalCommandString_00Nto22E() throws PlanetExplorerException{		
+		String position=explorer.executeCommand("ffrff");
+		
+		assertEquals("(2,2,E)", position);
+	}
 }

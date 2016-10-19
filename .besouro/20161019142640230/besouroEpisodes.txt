@@ -43,3 +43,7 @@
 1476879185515 test-addition 2 244 true
 1476879185516 test-addition 1 244 true
 1476879185517 test-addition 2 244 true
+1476879313549 test-addition 2 120 true
+1476879313550 test-addition 1 120 true
+1476879313551 test-addition 2 120 true
+1476879313552 test-addition 1 120 true

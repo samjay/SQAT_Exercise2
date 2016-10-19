@@ -58,11 +58,11 @@ public class PlanetExplorer {
 		}else if(command.equals(FORWARD)){
 			moveForward();
 		}else if(command.equals(BACKWARD)){
-			xCoordinate++;
+			moveBackWard();
 		}
 		
 		return createPositionString();
-	}
+	}	
 
 	private String createPositionString() {
 		return "("+ xCoordinate +","+ yCoordinate + "," + facing +")";
@@ -123,6 +123,26 @@ public class PlanetExplorer {
 			break;
 		case WEST: 
 			xCoordinate--;
+			break;
+		default:
+			throw new PlanetExplorerException();			
+		}
+		
+	}
+	
+	private void moveBackWard() throws PlanetExplorerException {
+		switch (facing) {
+		case NORTH:
+			yCoordinate--;
+			break;
+		case EAST: 
+			xCoordinate--;
+			break;
+		case SOUTH: 
+			yCoordinate++;
+			break;
+		case WEST: 
+			xCoordinate++;
 			break;
 		default:
 			throw new PlanetExplorerException();			

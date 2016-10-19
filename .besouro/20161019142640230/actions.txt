@@ -102,3 +102,5 @@ RefactoringAction 1476877751726 Directions.java ADD Directions.java CLASS
 RefactoringAction 1476877799837 Directions.java REMOVE Directions.java CLASS
 RefactoringAction 1476877816404 PlanetExplorer.java ADD String NORTH FIELD
 EditAction 1476877816404 PlanetExplorer.java 1725 3 9 0
+RefactoringAction 1476877833205 PlanetExplorer.java ADD String TURN_RIGHT FIELD
+EditAction 1476877833205 PlanetExplorer.java 1779 3 9 0

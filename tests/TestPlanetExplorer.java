@@ -129,4 +129,10 @@ public class TestPlanetExplorer {
 		assertEquals(1, obs1XCoor);
 	}
 	
+	@Test(expected=PlanetExplorerException.class)
+	public void test_placeObstaclesOutOfGrid_shouldFail(){
+		PlanetExplorer explorerWithObs= new PlanetExplorer(6, 6, "(7,1)(4,7)");
+
+	}
+	
 }

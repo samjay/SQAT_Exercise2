@@ -36,8 +36,9 @@ public class PlanetExplorer {
 		planet = new Planet();
 		planet.setLength(x);
 		planet.setWidth(y);
-		planet.setObstacles(obstacles);
-
+		if (!obstacles.equals("")) {
+			planet.setObstacles(obstacles);
+		}
 		xCoordinate = 0;
 		yCoordinate = 0;
 		facing = NORTH;
@@ -162,20 +163,20 @@ public class PlanetExplorer {
 		wrap();
 
 	}
-	
+
 	private void wrap() {
-		if(xCoordinate<0){
-			xCoordinate=planet.getLength()-1;
+		if (xCoordinate < 0) {
+			xCoordinate = planet.getLength() - 1;
 		}
-		if(xCoordinate==planet.getLength()){
-			xCoordinate=0;
+		if (xCoordinate == planet.getLength()) {
+			xCoordinate = 0;
 		}
-		if(yCoordinate<0){
-			yCoordinate=planet.getWidth()-1;
+		if (yCoordinate < 0) {
+			yCoordinate = planet.getWidth() - 1;
 		}
-		if(yCoordinate==planet.getWidth()){
-			yCoordinate=0;
+		if (yCoordinate == planet.getWidth()) {
+			yCoordinate = 0;
 		}
 	}
-	
+
 }

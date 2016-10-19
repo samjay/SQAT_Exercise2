@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Planet {
@@ -23,8 +24,16 @@ public class Planet {
 		return this.obstacles;
 	}
 	public void setObstacles(String obstacles2) {
+		obstacles = new ArrayList<>();
 		String[] obstacleStrings=obstacles2.split("[)]");
-		
+		for(String obsString:obstacleStrings){
+			obsString=obsString.substring(1, obsString.length());
+			String[] coordinates=obsString.split("[,]");
+			Obstacle obs= new Obstacle();
+			obs.setX(Integer.parseInt(coordinates[0]));
+			obs.setY(Integer.parseInt(coordinates[1]));
+			obstacles.add(obs);
+		}
 	}	
 
 }

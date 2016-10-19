@@ -339,3 +339,15 @@ EditAction 1476881637123 TestPlanetExplorer.java 3554 16 41 16
 UnitTestCaseAction 1476881641104 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476881641104 TestPlanetExplorer.java FAIL
 EditAction 1476881807197 Planet.java 1071 6 8 0
+CompilationAction 1476881807306 PlanetExplorer.java
+CompilationAction 1476881812844 PlanetExplorer.java
+CompilationAction 1476881812985 TestPlanetExplorer.java
+CompilationAction 1476881812985 TestPlanetExplorer.java
+RefactoringAction 1476881849754 TestPlanetExplorer.java REMOVE explorer FIELD
+CompilationAction 1476881897053 TestPlanetExplorer.java
+UnitTestCaseAction 1476881901596 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476881901596 TestPlanetExplorer.java OK
+RefactoringAction 1476881973325 TestPlanetExplorer.java ADD void test_placeObstacles_1n1_4n5()/2 METHOD
+RefactoringAction 1476881984650 TestPlanetExplorer.java RENAME test_placeObstacles_1n1_4n5()/2=>void test_executeCommandWithObstacles_1n1_4n5() METHOD
+RefactoringAction 1476881992903 TestPlanetExplorer.java RENAME test_executeCommandWithObstacles_1n1_4n5()=>void test_executeCommandWithObstacles() METHOD
+EditAction 1476882041949 TestPlanetExplorer.java 4688 17 58 17

@@ -21,7 +21,7 @@ public class PlanetExplorer {
 	Integer yCoordinate = 0;
 	String facing = "";
 
-	public PlanetExplorer(int x, int y, String obstacles) {
+	public PlanetExplorer(int x, int y, String obstacles) throws PlanetExplorerException {
 		/*
 		 * x and y represent the size of the grid. Obstacles is a String
 		 * formatted as follows:

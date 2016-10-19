@@ -5,6 +5,7 @@
 
 public class PlanetExplorer {
 	
+	private static final String EAST = "E";
 	private static final String TURN_RIGHT = "r";
 	private static final String NORTH = "N";
 	Planet planet;
@@ -42,7 +43,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		if(command.equals(TURN_RIGHT)){
-			facing="E";
+			facing=EAST;
 		}else if(command.equals("l")){
 			facing="W";
 		}

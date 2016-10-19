@@ -180,3 +180,14 @@ EditAction 1476878860110 TestPlanetExplorer.java 1754 8 20 9
 UnitTestCaseAction 1476878908988 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476878908988 TestPlanetExplorer.java FAIL
 EditAction 1476878927661 TestPlanetExplorer.java 1754 8 20 9
+UnitTestCaseAction 1476878931786 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476878931786 TestPlanetExplorer.java OK
+RefactoringAction 1476878940849 TestPlanetExplorer.java ADD void test_executeCommand_moveBackWard_00Nto10N()/2 METHOD
+RefactoringAction 1476878946512 TestPlanetExplorer.java RENAME test_executeCommand_moveBackWard_00Nto10N()/2=>void test_executeCommand_moveforward_00Nto10N() METHOD
+RefactoringAction 1476878950631 TestPlanetExplorer.java RENAME test_executeCommand_moveforward_00Nto10N()=>void test_executeCommand_moveforwardtoFacing_00Nto10N() METHOD
+RefactoringAction 1476878957838 TestPlanetExplorer.java RENAME test_executeCommand_moveforwardtoFacing_00Nto10N()=>void test_executeCommand_moveforwardtoFacing_00Eto10N() METHOD
+RefactoringAction 1476878964015 TestPlanetExplorer.java RENAME test_executeCommand_moveBackWard_00Nto10N()=>void test_executeCommand_moveBackWard_00Wto10N() METHOD
+RefactoringAction 1476878966075 TestPlanetExplorer.java RENAME test_executeCommand_moveBackWard_00Wto10N()=>void test_executeCommand_moveBackWard_00Wto10W() METHOD
+RefactoringAction 1476878970708 TestPlanetExplorer.java RENAME test_executeCommand_moveforwardtoFacing_00Eto10N()=>void test_executeCommand_moveforwardtoFacing_00Eto10W() METHOD
+RefactoringAction 1476878972767 TestPlanetExplorer.java RENAME test_executeCommand_moveforwardtoFacing_00Eto10W()=>void test_executeCommand_moveforwardtoFacing_00Eto10E() METHOD
+EditAction 1476878982377 TestPlanetExplorer.java 1984 9 23 10

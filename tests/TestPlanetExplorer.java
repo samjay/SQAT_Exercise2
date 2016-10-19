@@ -64,10 +64,18 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_executeCommand_moveBackWard_00Nto10N() throws PlanetExplorerException{		
+	public void test_executeCommand_moveBackWard_00Wto10W() throws PlanetExplorerException{		
 		explorer.executeCommand("l");
 		String position=explorer.executeCommand("b");
 		
 		assertEquals("(1,0,W)", position);
+	}
+	
+	@Test
+	public void test_executeCommand_moveforwardtoFacing_00Eto10E() throws PlanetExplorerException{		
+		explorer.executeCommand("r");
+		String position=explorer.executeCommand("f");
+		
+		assertEquals("(1,0,E)", position);
 	}
 }

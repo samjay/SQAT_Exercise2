@@ -177,3 +177,6 @@ RefactoringAction 1476878815790 TestPlanetExplorer.java RENAME test_executeComma
 RefactoringAction 1476878821968 TestPlanetExplorer.java RENAME test_executeCommand_moveBackWard_00Nto01N()=>void test_executeCommand_moveBackWard_00Nto11N() METHOD
 RefactoringAction 1476878823512 TestPlanetExplorer.java RENAME test_executeCommand_moveBackWard_00Nto11N()=>void test_executeCommand_moveBackWard_00Nto10N() METHOD
 EditAction 1476878860110 TestPlanetExplorer.java 1754 8 20 9
+UnitTestCaseAction 1476878908988 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878908988 TestPlanetExplorer.java FAIL
+EditAction 1476878927661 TestPlanetExplorer.java 1754 8 20 9

@@ -351,3 +351,6 @@ RefactoringAction 1476881973325 TestPlanetExplorer.java ADD void test_placeObsta
 RefactoringAction 1476881984650 TestPlanetExplorer.java RENAME test_placeObstacles_1n1_4n5()/2=>void test_executeCommandWithObstacles_1n1_4n5() METHOD
 RefactoringAction 1476881992903 TestPlanetExplorer.java RENAME test_executeCommandWithObstacles_1n1_4n5()=>void test_executeCommandWithObstacles() METHOD
 EditAction 1476882041949 TestPlanetExplorer.java 4688 17 58 17
+UnitTestCaseAction 1476882047038 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476882047038 TestPlanetExplorer.java FAIL
+EditAction 1476882115054 TestPlanetExplorer.java 4687 17 58 17

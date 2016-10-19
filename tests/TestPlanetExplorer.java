@@ -146,8 +146,8 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_executeCommandWithObstacles() throws PlanetExplorerException{
 		PlanetExplorer explorerWithObs= new PlanetExplorer(6, 6, "(2,2)");
-		int obs1XCoor=explorerWithObs.getPlanet().getObstacles().get(0).getX();
+		String position= explorerWithObs.executeCommand("ffrfff");
 		
-		assertEquals(1, obs1XCoor);
+		assertEquals("(1,2,E)(2,2)", position);
 	}
 }

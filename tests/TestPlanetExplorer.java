@@ -150,4 +150,12 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(1,2,E)(2,2)", position);
 	}
+	
+	@Test
+	public void test_executeCommandWithMultipleObstacles() throws PlanetExplorerException{
+		PlanetExplorer explorerWithObs= new PlanetExplorer(6, 6, "(2,2)(2,1)");
+		String position= explorerWithObs.executeCommand("ffrfffrflf");
+		
+		assertEquals("(1,1,E)(2,2)(2,1)", position);
+	}
 }

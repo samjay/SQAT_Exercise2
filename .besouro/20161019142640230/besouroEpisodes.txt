@@ -141,3 +141,17 @@
 1476881556800 test-first 1 1023 true
 1476881563350 regression 1 0 true
 1476881901596 test-first 3 320 true
+1476883162930 test-addition 2 1189 true
+1476883162931 test-addition 2 1189 true
+1476883162932 test-addition 2 1189 true
+1476883162933 test-addition 2 1189 true
+1476883162934 test-addition 2 1189 true
+1476883162935 test-addition 2 1189 true
+1476883162936 test-addition 1 1189 true
+1476883162937 test-addition 2 1189 true
+1476883162938 test-addition 2 1189 true
+1476883162939 test-addition 2 1189 true
+1476883162940 test-addition 2 1189 true
+1476883162941 test-addition 2 1189 true
+1476883162942 test-addition 2 1189 true
+1476883162943 test-addition 1 1189 true

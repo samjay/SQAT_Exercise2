@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:
@@ -20,6 +22,7 @@ public class PlanetExplorer {
 	Integer xCoordinate = 0;
 	Integer yCoordinate = 0;
 	String facing = "";
+	List<String> foundObstacles;
 
 	public PlanetExplorer(int x, int y, String obstacles) throws PlanetExplorerException {
 		/*
@@ -35,7 +38,8 @@ public class PlanetExplorer {
 		 */
 		planet = new Planet();
 		planet.setLength(x);
-		planet.setWidth(y);
+		planet.setWidth(y);		
+		foundObstacles=new ArrayList<>();
 		if (!obstacles.equals("")) {
 			planet.setObstacles(obstacles);
 		}
@@ -77,7 +81,11 @@ public class PlanetExplorer {
 	}
 
 	private String createPositionString() {
-		return "(" + xCoordinate + "," + yCoordinate + "," + facing + ")";
+		String position= "(" + xCoordinate + "," + yCoordinate + "," + facing + ")";
+		for(String obs:foundObstacles){
+			position=position+obs;
+		}
+		return position;
 	}
 
 	public Planet getPlanet() {
@@ -126,15 +134,27 @@ public class PlanetExplorer {
 		switch (facing) {
 		case NORTH:
 			yCoordinate++;
+			if (onObstacle()) {
+				yCoordinate--;
+			}
 			break;
 		case EAST:
 			xCoordinate++;
+			if (onObstacle()) {
+				xCoordinate--;
+			}
 			break;
 		case SOUTH:
 			yCoordinate--;
+			if (onObstacle()) {
+				yCoordinate++;
+			}
 			break;
 		case WEST:
 			xCoordinate--;
+			if (onObstacle()) {
+				xCoordinate++;
+			}
 			break;
 		default:
 			throw new PlanetExplorerException();
@@ -147,15 +167,27 @@ public class PlanetExplorer {
 		switch (facing) {
 		case NORTH:
 			yCoordinate--;
+			if (onObstacle()) {
+				yCoordinate++;
+			}
 			break;
 		case EAST:
 			xCoordinate--;
+			if (onObstacle()) {
+				xCoordinate++;
+			}
 			break;
 		case SOUTH:
 			yCoordinate++;
+			if (onObstacle()) {
+				yCoordinate--;
+			}
 			break;
 		case WEST:
 			xCoordinate++;
+			if (onObstacle()) {
+				xCoordinate--;
+			}
 			break;
 		default:
 			throw new PlanetExplorerException();
@@ -177,6 +209,24 @@ public class PlanetExplorer {
 		if (yCoordinate == planet.getWidth()) {
 			yCoordinate = 0;
 		}
+	}
+
+	private boolean onObstacle() {
+		if (planet.getObstacles()!=null && !planet.getObstacles().isEmpty()) {
+			for (Obstacle obs : planet.getObstacles()) {
+				if (xCoordinate == obs.getX()) {
+					if (yCoordinate == obs.getY()) {
+						String obsString="("+String.valueOf(xCoordinate)+","+String.valueOf(yCoordinate)+")";
+						if(!foundObstacles.contains(obsString)){
+							foundObstacles.add(obsString);
+						}
+						return true;
+					}
+				}
+			}
+		}
+		return false;
+
 	}
 
 }

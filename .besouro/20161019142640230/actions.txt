@@ -354,3 +354,28 @@ EditAction 1476882041949 TestPlanetExplorer.java 4688 17 58 17
 UnitTestCaseAction 1476882047038 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476882047038 TestPlanetExplorer.java FAIL
 EditAction 1476882115054 TestPlanetExplorer.java 4687 17 58 17
+UnitTestCaseAction 1476882120036 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476882120036 TestPlanetExplorer.java FAIL
+RefactoringAction 1476882252137 PlanetExplorer.java ADD String foundObsta FIELD
+RefactoringAction 1476882254212 PlanetExplorer.java RENAME foundObsta=>String foundObstacles FIELD
+RefactoringAction 1476882333086 PlanetExplorer.java ADD void onObstacle() METHOD
+RefactoringAction 1476882336081 PlanetExplorer.java REMOVE onObstacle() METHOD
+RefactoringAction 1476882341744 PlanetExplorer.java ADD void onObstacle() METHOD
+UnitTestCaseAction 1476882614669 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476882614669 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476882665170 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476882665170 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476882710179 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476882710179 Rerun TestPlanetExplorer.test_executeCommand_moveBackWard_00Wto10W FAIL
+UnitTestCaseAction 1476882791256 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476882791256 TestPlanetExplorer.java FAIL
+RefactoringAction 1476882834375 PlanetExplorer.java RENAME foundObstacles=>String ListfoundObstacles FIELD
+RefactoringAction 1476882839538 PlanetExplorer.java RENAME ListfoundObstacles=>String List FIELD
+RefactoringAction 1476882857073 PlanetExplorer.java RENAME List=>List<String> foundObstacles FIELD
+RefactoringAction 1476882862439 PlanetExplorer.java ADD import java.util.List IMPORT
+RefactoringAction 1476882873624 PlanetExplorer.java ADD import java.util.ArrayList IMPORT
+UnitTestCaseAction 1476883162930 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476883162930 TestPlanetExplorer.java OK
+RefactoringAction 1476883195394 TestPlanetExplorer.java ADD void test_executeCommandWithObstacles()/2 METHOD
+RefactoringAction 1476883200027 TestPlanetExplorer.java RENAME test_executeCommandWithObstacles()/2=>void test_executeCommandWithMultipleObstacles() METHOD
+EditAction 1476883244206 TestPlanetExplorer.java 4976 18 61 18

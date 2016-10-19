@@ -41,6 +41,8 @@ public class PlanetExplorer {
 		 */
 		if(command.equals("r")){
 			facing="E";
+		}else if(command.equals("l")){
+			facing="W";
 		}
 		
 		return "("+ xCoordinate +","+ yCoordinate + "," + facing +")";

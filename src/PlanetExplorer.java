@@ -51,6 +51,8 @@ public class PlanetExplorer {
 			turnRight();
 		}else if(command.equals(TURN_LEFT)){
 			turnLeft();
+		}else if(command.equals("f")){
+			yCoordinate++;
 		}
 		
 		return createPositionString();

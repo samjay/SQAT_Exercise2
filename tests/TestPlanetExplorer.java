@@ -36,4 +36,13 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(0,0,W)", position);
 	}
+	
+	@Test
+	public void test_executeCommand_turnRight_WtoS(){		
+		
+		explorer.executeCommand("l");
+		String position=explorer.executeCommand("l");
+		
+		assertEquals("(0,0,S)", position);
+	}
 }

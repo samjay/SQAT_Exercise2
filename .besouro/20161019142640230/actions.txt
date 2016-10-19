@@ -118,3 +118,15 @@ RefactoringAction 1476877895543 PlanetExplorer.java ADD String EAST/2 FIELD
 RefactoringAction 1476877900176 PlanetExplorer.java RENAME EAST/2=>String SOUTH FIELD
 RefactoringAction 1476877943357 PlanetExplorer.java ADD String createPositionString() METHOD
 EditAction 1476877955853 PlanetExplorer.java 2039 4 10 0
+UnitTestCaseAction 1476877961565 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877961565 TestPlanetExplorer.java OK
+RefactoringAction 1476878008708 TestPlanetExplorer.java ADD void test_executeCommand_turnLeft_NtoW()/2 METHOD
+RefactoringAction 1476878014371 TestPlanetExplorer.java RENAME test_executeCommand_turnLeft_NtoW()/2=>void test_executeCommand_turnLeft_StoW() METHOD
+RefactoringAction 1476878019004 TestPlanetExplorer.java RENAME test_executeCommand_turnLeft_StoW()=>void test_executeCommand_turnLeft_toW() METHOD
+RefactoringAction 1476878023638 TestPlanetExplorer.java RENAME test_executeCommand_turnLeft_toW()=>void test_executeCommand_turnLeft_NtoW()/2 METHOD
+RefactoringAction 1476878044230 TestPlanetExplorer.java RENAME test_executeCommand_turnLeft_NtoW()/2=>void test_executeCommand_turnLeft_WtoW() METHOD
+RefactoringAction 1476878048863 TestPlanetExplorer.java RENAME test_executeCommand_turnLeft_WtoW()=>void test_executeCommand_turn_WtoW() METHOD
+RefactoringAction 1476878049892 TestPlanetExplorer.java RENAME test_executeCommand_turn_WtoW()=>void test_executeCommand_turnRi_WtoW() METHOD
+RefactoringAction 1476878051437 TestPlanetExplorer.java RENAME test_executeCommand_turnRi_WtoW()=>void test_executeCommand_turnRight_WtoW() METHOD
+RefactoringAction 1476878054011 TestPlanetExplorer.java RENAME test_executeCommand_turnRight_WtoW()=>void test_executeCommand_turnRight_WtoS() METHOD
+EditAction 1476878068191 TestPlanetExplorer.java 997 5 12 6

@@ -23,7 +23,7 @@ public class Planet {
 		return this.obstacles;
 	}
 	public void setObstacles(String obstacles2) {
-		String[] obstacleStrings=obstacles2.split(")");
+		String[] obstacleStrings=obstacles2.split("[)]");
 		
 	}	
 

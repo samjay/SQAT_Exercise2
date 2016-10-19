@@ -36,6 +36,7 @@ public class PlanetExplorer {
 		planet = new Planet();
 		planet.setLength(x);
 		planet.setWidth(y);
+		planet.setObstacles(obstacles);
 
 		xCoordinate = 0;
 		yCoordinate = 0;

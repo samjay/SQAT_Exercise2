@@ -252,3 +252,8 @@ RefactoringAction 1476879842137 TestPlanetExplorer.java RENAME test_executeComma
 RefactoringAction 1476879845226 TestPlanetExplorer.java RENAME test_executeCommand_wrap_moveForward_00Wto099N()=>void test_executeCommand_wrap_moveForward_00Wto9999N() METHOD
 RefactoringAction 1476879847285 TestPlanetExplorer.java RENAME test_executeCommand_wrap_moveForward_00Wto9999N()=>void test_executeCommand_wrap_moveForward_00Wto990N() METHOD
 EditAction 1476879871059 TestPlanetExplorer.java 2877 13 34 14
+UnitTestCaseAction 1476879875088 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476879875088 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476880014197 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476880014197 TestPlanetExplorer.java FAIL
+EditAction 1476880029297 TestPlanetExplorer.java 2877 13 34 14

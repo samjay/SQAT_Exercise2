@@ -108,7 +108,7 @@ public class TestPlanetExplorer {
 		explorer.executeCommand("l");
 		String position=explorer.executeCommand("f");
 		
-		assertEquals("(99,0,N)", position);
+		assertEquals("(99,0,W)", position);
 	}
 	
 }

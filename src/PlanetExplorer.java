@@ -137,6 +137,9 @@ public class PlanetExplorer {
 		default:
 			throw new PlanetExplorerException();
 		}
+		if(xCoordinate<0){
+			xCoordinate=planet.getLength()-1;
+		}
 
 	}
 

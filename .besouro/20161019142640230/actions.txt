@@ -268,3 +268,34 @@ EditAction 1476880124102 TestPlanetExplorer.java 3135 14 37 15
 UnitTestCaseAction 1476880127318 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476880127318 TestPlanetExplorer.java FAIL
 EditAction 1476880135820 TestPlanetExplorer.java 3134 14 37 15
+UnitTestCaseAction 1476880139661 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476880139661 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476880263544 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476880263544 TestPlanetExplorer.java OK
+RefactoringAction 1476880334493 PlanetExplorer.java ADD void wrap() METHOD
+RefactoringAction 1476880348486 PlanetExplorer.java REMOVE wrap() METHOD
+RefactoringAction 1476880350545 PlanetExplorer.java ADD void wrap() METHOD
+UnitTestCaseAction 1476880358192 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476880358192 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476880411766 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476880411766 Rerun TestPlanetExplorer.test_executeCommand_wrap_moveBack_00Nto099N FAIL
+UnitTestCaseAction 1476880468524 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476880468524 TestPlanetExplorer.java OK
+RefactoringAction 1476880532889 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1476880533919 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1476880538037 TestPlanetExplorer.java RENAME test_=>void test_placeObstacle FIELD
+RefactoringAction 1476880539582 TestPlanetExplorer.java RENAME test_placeObstacle=>void test_placeObstacles FIELD
+RefactoringAction 1476880542156 TestPlanetExplorer.java RENAME test_placeObstacles=>void test_placeObstacles_ FIELD
+RefactoringAction 1476880550907 TestPlanetExplorer.java RENAME test_placeObstacles_=>void test_placeObstacles_1 FIELD
+RefactoringAction 1476880578208 TestPlanetExplorer.java RENAME test_placeObstacles_1=>void test_placeObstacles_11_4 FIELD
+RefactoringAction 1476880581296 TestPlanetExplorer.java RENAME test_placeObstacles_11_4=>void test_placeObstacles_1n1_4 FIELD
+RefactoringAction 1476880782427 Planet.java ADD Object getObstacles() METHOD
+RefactoringAction 1476880805578 Obstacle.java ADD Obstacle.java CLASS
+FileOpenedAction 1476880805718 Obstacle.java 32 0 0 0
+RefactoringAction 1476880810866 Obstacle.java ADD int x FIELD
+RefactoringAction 1476880816014 Obstacle.java ADD int y FIELD
+RefactoringAction 1476880826825 Obstacle.java ADD int getX() METHOD
+RefactoringAction 1476880826825 Obstacle.java ADD void setX(int) METHOD
+RefactoringAction 1476880826825 Obstacle.java ADD int getY() METHOD
+RefactoringAction 1476880826825 Obstacle.java ADD void setY(int) METHOD
+EditAction 1476880850537 Planet.java 416 5 5 0

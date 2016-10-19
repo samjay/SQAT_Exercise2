@@ -137,9 +137,7 @@ public class PlanetExplorer {
 		default:
 			throw new PlanetExplorerException();
 		}
-		if(xCoordinate<0){
-			xCoordinate=planet.getLength()-1;
-		}
+		wrap();
 
 	}
 
@@ -160,9 +158,23 @@ public class PlanetExplorer {
 		default:
 			throw new PlanetExplorerException();
 		}
+		wrap();
+
+	}
+	
+	private void wrap() {
+		if(xCoordinate<0){
+			xCoordinate=planet.getLength()-1;
+		}
+		if(xCoordinate==planet.getLength()){
+			xCoordinate=0;
+		}
 		if(yCoordinate<0){
 			yCoordinate=planet.getWidth()-1;
 		}
-
+		if(yCoordinate==planet.getWidth()){
+			yCoordinate=0;
+		}
 	}
+	
 }

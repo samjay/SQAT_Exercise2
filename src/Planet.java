@@ -3,6 +3,8 @@ public class Planet {
 	
 	private int width;
 	private int length;
+	private List<Ob>
+	
 	public int getWidth() {
 		return width;
 	}
@@ -14,6 +16,10 @@ public class Planet {
 	}
 	public void setLength(int length) {
 		this.length = length;
+	}
+	public Object getObstacles() {
+		// TODO Auto-generated method stub
+		return null;
 	}	
 
 }

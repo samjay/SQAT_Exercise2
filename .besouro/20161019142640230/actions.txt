@@ -87,3 +87,9 @@ EditAction 1476877593405 TestPlanetExplorer.java 654 3 7 4
 UnitTestCaseAction 1476877598915 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877598915 TestPlanetExplorer.java FAIL
 EditAction 1476877639725 PlanetExplorer.java 1633 3 9 0
+UnitTestCaseAction 1476877653268 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877653268 TestPlanetExplorer.java OK
+RefactoringAction 1476877663315 TestPlanetExplorer.java ADD void test_executeCommand_turnRight_NtoE()/2 METHOD
+RefactoringAction 1476877670007 TestPlanetExplorer.java RENAME test_executeCommand_turnRight_NtoE()/2=>void test_executeCommand_turnLeft_NtoE() METHOD
+RefactoringAction 1476877673096 TestPlanetExplorer.java RENAME test_executeCommand_turnLeft_NtoE()=>void test_executeCommand_turnLeft_NtoW() METHOD
+EditAction 1476877678322 TestPlanetExplorer.java 809 4 9 5

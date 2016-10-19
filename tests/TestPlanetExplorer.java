@@ -28,4 +28,12 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(0,0,E)", position);
 	}
+	
+	@Test
+	public void test_executeCommand_turnLeft_NtoW(){		
+		
+		String position=explorer.executeCommand("l");
+		
+		assertEquals("(0,0,W)", position);
+	}
 }

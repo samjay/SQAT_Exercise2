@@ -124,7 +124,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_placeObstacles_1n1_4n5(){
 		PlanetExplorer explorerWithObs= new PlanetExplorer(6, 6, "(1,1)(4,5)");
-		int obs1XCoor=explorerWithObs.getPlanet().getObstacles().get(0).getX();
+		int obs1XCoor=explorerWithObs.getPlanet().getObstacles()
 		
 		assertEquals(1, obs1XCoor);
 	}

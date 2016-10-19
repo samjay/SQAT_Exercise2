@@ -1,9 +1,10 @@
+import java.util.List;
 
 public class Planet {
 	
 	private int width;
 	private int length;
-	private List<Ob>
+	private List<Obstacle> obstacles;
 	
 	public int getWidth() {
 		return width;
@@ -18,8 +19,8 @@ public class Planet {
 		this.length = length;
 	}
 	public Object getObstacles() {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return this.obstacles;
 	}	
 
 }

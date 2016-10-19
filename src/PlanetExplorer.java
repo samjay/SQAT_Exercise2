@@ -63,4 +63,15 @@ public class PlanetExplorer {
 	public Planet getPlanet() {
 		return this.planet;
 	}
+	
+	private void turnRight(){
+		switch (facing) {
+		case NORTH:facing=EAST;
+		case EAST: facing=SOUTH;
+		case SOUTH: facing=WEST;
+		case WEST: facing= NORTH;
+		default:
+			break;
+		}
+	}
 }

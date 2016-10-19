@@ -130,3 +130,8 @@ RefactoringAction 1476878049892 TestPlanetExplorer.java RENAME test_executeComma
 RefactoringAction 1476878051437 TestPlanetExplorer.java RENAME test_executeCommand_turnRi_WtoW()=>void test_executeCommand_turnRight_WtoW() METHOD
 RefactoringAction 1476878054011 TestPlanetExplorer.java RENAME test_executeCommand_turnRight_WtoW()=>void test_executeCommand_turnRight_WtoS() METHOD
 EditAction 1476878068191 TestPlanetExplorer.java 997 5 12 6
+UnitTestCaseAction 1476878072734 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878072734 TestPlanetExplorer.java FAIL
+RefactoringAction 1476878114324 PlanetExplorer.java ADD void turnRight FIELD
+RefactoringAction 1476878115353 PlanetExplorer.java RENAME turnRight=>void turnRight() METHOD
+EditAction 1476878225879 PlanetExplorer.java 2224 5 11 0

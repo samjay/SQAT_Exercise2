@@ -2,8 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
-// ID:
-// Finish time:
+// ID:123
+// Finish time: 16:25
 
 public class PlanetExplorer {
 

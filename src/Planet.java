@@ -18,7 +18,7 @@ public class Planet {
 	public void setLength(int length) {
 		this.length = length;
 	}
-	public Object getObstacles() {
+	public List<Obstacle> getObstacles() {
 		
 		return this.obstacles;
 	}	

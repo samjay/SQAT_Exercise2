@@ -313,3 +313,6 @@ CompilationAction 1476880898024 TestPlanetExplorer.java
 CompilationAction 1476880928569 TestPlanetExplorer.java
 CompilationAction 1476880928569 TestPlanetExplorer.java
 EditAction 1476880983699 Obstacle.java 244 4 4 0
+CompilationAction 1476880989065 TestPlanetExplorer.java
+CompilationAction 1476880989065 TestPlanetExplorer.java
+EditAction 1476880989097 Planet.java 441 5 5 0

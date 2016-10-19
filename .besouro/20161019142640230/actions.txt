@@ -230,3 +230,14 @@ RefactoringAction 1476879370645 TestPlanetExplorer.java RENAME test_executeComma
 RefactoringAction 1476879371675 TestPlanetExplorer.java RENAME test_executeCommand_severalCommands_00Nto22()=>void test_executeCommand_severalCommands_00Nto22E() METHOD
 RefactoringAction 1476879380941 TestPlanetExplorer.java RENAME test_executeCommand_severalCommands_00Nto22E()=>void test_executeCommand_severalCommandString_00Nto22E() METHOD
 EditAction 1476879407929 TestPlanetExplorer.java 2450 11 29 12
+UnitTestCaseAction 1476879411988 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476879411988 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476879573670 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476879573670 TestPlanetExplorer.java OK
+RefactoringAction 1476879650141 TestPlanetExplorer.java ADD void test_executeCommand_moveForward_00Nto01N()/2 METHOD
+RefactoringAction 1476879659408 TestPlanetExplorer.java RENAME test_executeCommand_moveForward_00Nto01N()/2=>void test_executeCommand_wrap_00Nto01N() METHOD
+RefactoringAction 1476879666615 TestPlanetExplorer.java RENAME test_executeCommand_wrap_00Nto01N()=>void test_executeCommand_wrap_moveBack00Nto01N() METHOD
+RefactoringAction 1476879668159 TestPlanetExplorer.java RENAME test_executeCommand_wrap_moveBack00Nto01N()=>void test_executeCommand_wrap_moveBack_00Nto01N() METHOD
+RefactoringAction 1476879675881 TestPlanetExplorer.java RENAME test_executeCommand_wrap_moveBack_00Nto01N()=>void test_executeCommand_wrap_moveBack_00Nto0N() METHOD
+RefactoringAction 1476879676911 TestPlanetExplorer.java RENAME test_executeCommand_wrap_moveBack_00Nto0N()=>void test_executeCommand_wrap_moveBack_00Nto099N() METHOD
+EditAction 1476879697019 TestPlanetExplorer.java 2648 12 31 13

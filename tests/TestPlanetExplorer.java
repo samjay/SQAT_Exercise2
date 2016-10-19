@@ -94,4 +94,13 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(2,2,E)", position);
 	}
+	
+	@Test
+	public void test_executeCommand_wrap_moveBack_00Nto099N() throws PlanetExplorerException{		
+	
+		String position=explorer.executeCommand("b");
+		
+		assertEquals("(0,99,N)", position);
+	}
+	
 }

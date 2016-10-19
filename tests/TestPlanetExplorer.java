@@ -158,4 +158,12 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(1,1,E)(2,2)(2,1)", position);
 	}
+	
+	@Test
+	public void test_executeCommandtour6by6planet() throws PlanetExplorerException{
+		PlanetExplorer explorerWithObs= new PlanetExplorer(6, 6, "(2,2)(0,5)(5,0)");
+		String position= explorerWithObs.executeCommand("ffrfffrflf");
+		
+		assertEquals("(1,1,E)(2,2)(2,1)", position);
+	}
 }

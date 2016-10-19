@@ -379,3 +379,12 @@ UnitTestSessionAction 1476883162930 TestPlanetExplorer.java OK
 RefactoringAction 1476883195394 TestPlanetExplorer.java ADD void test_executeCommandWithObstacles()/2 METHOD
 RefactoringAction 1476883200027 TestPlanetExplorer.java RENAME test_executeCommandWithObstacles()/2=>void test_executeCommandWithMultipleObstacles() METHOD
 EditAction 1476883244206 TestPlanetExplorer.java 4976 18 61 18
+UnitTestCaseAction 1476883248749 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476883248749 TestPlanetExplorer.java OK
+RefactoringAction 1476883276220 TestPlanetExplorer.java ADD void test_executeCommandWithMultipleObstacles()/2 METHOD
+RefactoringAction 1476883281883 TestPlanetExplorer.java RENAME test_executeCommandWithMultipleObstacles()/2=>void test_executeCommandtour() METHOD
+RefactoringAction 1476883282913 TestPlanetExplorer.java RENAME test_executeCommandtour()=>void test_executeCommandtour6() METHOD
+RefactoringAction 1476883285487 TestPlanetExplorer.java RENAME test_executeCommandtour6()=>void test_executeCommandtour6by6() METHOD
+RefactoringAction 1476883287031 TestPlanetExplorer.java RENAME test_executeCommandtour6by6()=>void test_executeCommandtour6by6pla() METHOD
+RefactoringAction 1476883288575 TestPlanetExplorer.java RENAME test_executeCommandtour6by6pla()=>void test_executeCommandtour6by6planet() METHOD
+EditAction 1476883304098 TestPlanetExplorer.java 5263 19 64 19

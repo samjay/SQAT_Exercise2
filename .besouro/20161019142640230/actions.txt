@@ -62,3 +62,25 @@ RefactoringAction 1476877235487 TestPlanetExplorer.java RENAME test_executeComma
 RefactoringAction 1476877236516 TestPlanetExplorer.java RENAME test_executeCommand_atStartexplorer_00N=>void test_executeCommand_atStart_explorer_00N FIELD
 RefactoringAction 1476877239605 TestPlanetExplorer.java RENAME test_executeCommand_atStart_explorer_00N=>void test_executeCommand_atStart_explorer_00N() METHOD
 EditAction 1476877312894 TestPlanetExplorer.java 558 2 7 3
+UnitTestCaseAction 1476877313225 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877313225 TestPlanetExplorer.java FAIL
+RefactoringAction 1476877346109 PlanetExplorer.java ADD Integer x FIELD
+RefactoringAction 1476877347669 PlanetExplorer.java RENAME x=>Integer xCoo FIELD
+RefactoringAction 1476877349729 PlanetExplorer.java RENAME xCoo=>Integer xCoordinate FIELD
+RefactoringAction 1476877359510 PlanetExplorer.java ADD Integer y FIELD
+RefactoringAction 1476877360539 PlanetExplorer.java RENAME y=>Integer yC FIELD
+RefactoringAction 1476877362599 PlanetExplorer.java REMOVE yC FIELD
+RefactoringAction 1476877372380 PlanetExplorer.java ADD Integer yCoo FIELD
+RefactoringAction 1476877375469 PlanetExplorer.java RENAME yCoo=>Integer yCoordinate FIELD
+RefactoringAction 1476877385765 PlanetExplorer.java ADD String facing FIELD
+UnitTestCaseAction 1476877487886 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877487902 TestPlanetExplorer.java OK
+RefactoringAction 1476877532035 TestPlanetExplorer.java ADD PlanetExplorer explorer FIELD
+RefactoringAction 1476877551597 TestPlanetExplorer.java ADD void test_executeCommand_atStart_explorer_00N()/2 METHOD
+RefactoringAction 1476877557260 TestPlanetExplorer.java RENAME test_executeCommand_atStart_explorer_00N()/2=>void test_executeCommand_turn_explorer_00N() METHOD
+RefactoringAction 1476877561909 TestPlanetExplorer.java RENAME test_executeCommand_turn_explorer_00N()=>void test_executeCommand_turnRight_explorer_00N() METHOD
+RefactoringAction 1476877565528 TestPlanetExplorer.java RENAME test_executeCommand_turnRight_explorer_00N()=>void test_executeCommand_turnRight_() METHOD
+RefactoringAction 1476877567072 TestPlanetExplorer.java RENAME test_executeCommand_turnRight_()=>void test_executeCommand_turnRight_N() METHOD
+RefactoringAction 1476877568617 TestPlanetExplorer.java RENAME test_executeCommand_turnRight_N()=>void test_executeCommand_turnRight_Nto() METHOD
+RefactoringAction 1476877571191 TestPlanetExplorer.java RENAME test_executeCommand_turnRight_Nto()=>void test_executeCommand_turnRight_NtoE() METHOD
+EditAction 1476877593405 TestPlanetExplorer.java 654 3 7 4

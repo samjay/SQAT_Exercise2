@@ -6,6 +6,9 @@
 public class PlanetExplorer {
 	
 	Planet planet;
+	Integer xCoordinate= 0;
+	Integer yCoordinate= 0;
+	String facing="";
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -18,6 +21,10 @@ public class PlanetExplorer {
 		planet= new Planet();
 		planet.setLength(x);
 		planet.setWidth(y);
+		
+		xCoordinate=0;
+		yCoordinate=0;
+		facing="N";
 		
 	}
 	
@@ -33,11 +40,10 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return null;
+		return "("+ xCoordinate +","+ yCoordinate + "," + facing +")";
 	}
 
 	public Planet getPlanet() {
-		// TODO Auto-generated method stub
 		return this.planet;
 	}
 }

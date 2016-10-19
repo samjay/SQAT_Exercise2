@@ -5,11 +5,14 @@
 
 public class PlanetExplorer {
 	
-	private static final String WEST = "W";
-	private static final String TURN_LEFT = "l";
-	private static final String EAST = "E";
-	private static final String TURN_RIGHT = "r";
 	private static final String NORTH = "N";
+	private static final String EAST = "E";
+	private static final String SOUTH = "S";
+	private static final String WEST = "W";
+	
+	private static final String TURN_LEFT = "l";
+	private static final String TURN_RIGHT = "r";
+	
 	Planet planet;
 	Integer xCoordinate= 0;
 	Integer yCoordinate= 0;
@@ -50,6 +53,10 @@ public class PlanetExplorer {
 			facing=WEST;
 		}
 		
+		return createPositionString();
+	}
+
+	private String createPositionString() {
 		return "("+ xCoordinate +","+ yCoordinate + "," + facing +")";
 	}
 

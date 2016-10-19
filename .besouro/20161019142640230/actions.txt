@@ -33,3 +33,10 @@ EditAction 1476876897348 Planet.java 303 4 4 0
 CompilationAction 1476876897535 TestPlanetExplorer.java
 RefactoringAction 1476876906474 PlanetExplorer.java ADD Planet getPlanet() METHOD
 EditAction 1476876911825 PlanetExplorer.java 1355 3 2 0
+UnitTestCaseAction 1476876919862 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476876919862 TestPlanetExplorer.java FAIL
+RefactoringAction 1476876968275 PlanetExplorer.java ADD Planet planet FIELD
+UnitTestCaseAction 1476877031380 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877031380 TestPlanetExplorer.java OK
+RefactoringAction 1476877053221 TestPlanetExplorer.java RENAME test_createPlanet_size100x100_width100()=>void test_createPlanet_size100x100() METHOD
+EditAction 1476877078711 TestPlanetExplorer.java 338 1 4 2

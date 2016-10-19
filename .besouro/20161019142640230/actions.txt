@@ -12,3 +12,18 @@ RefactoringAction 1476876700070 TestPlanetExplorer.java RENAME test_createPlanet
 RefactoringAction 1476876702644 TestPlanetExplorer.java RENAME test_createPlanet_size()=>void test_createPlanet_size100x100() METHOD
 RefactoringAction 1476876799474 TestPlanetExplorer.java RENAME test_createPlanet_size100x100()=>void test_createPlanet_size100x100_width100() METHOD
 EditAction 1476876802422 TestPlanetExplorer.java 305 1 3 1
+CompilationAction 1476876802562 TestPlanetExplorer.java
+CompilationAction 1476876802562 TestPlanetExplorer.java
+CompilationAction 1476876802562 TestPlanetExplorer.java
+RefactoringAction 1476876833185 Planet.java ADD Planet.java CLASS
+CompilationAction 1476876833310 TestPlanetExplorer.java
+CompilationAction 1476876833310 TestPlanetExplorer.java
+CompilationAction 1476876833310 TestPlanetExplorer.java
+FileOpenedAction 1476876833357 Planet.java 30 0 0 0
+RefactoringAction 1476876840549 Planet.java ADD int width FIELD
+RefactoringAction 1476876848785 Planet.java ADD int length FIELD
+RefactoringAction 1476876866803 Planet.java ADD int getWidth() METHOD
+RefactoringAction 1476876866803 Planet.java ADD void setWidth(int) METHOD
+RefactoringAction 1476876866803 Planet.java ADD int getLength() METHOD
+RefactoringAction 1476876866803 Planet.java ADD void setLength(int) METHOD
+EditAction 1476876897208 TestPlanetExplorer.java 306 1 3 1

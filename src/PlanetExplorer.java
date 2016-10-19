@@ -5,6 +5,7 @@
 
 public class PlanetExplorer {
 	
+	private static final String TURN_LEFT = "l";
 	private static final String EAST = "E";
 	private static final String TURN_RIGHT = "r";
 	private static final String NORTH = "N";
@@ -44,7 +45,7 @@ public class PlanetExplorer {
 		 */
 		if(command.equals(TURN_RIGHT)){
 			facing=EAST;
-		}else if(command.equals("l")){
+		}else if(command.equals(TURN_LEFT)){
 			facing="W";
 		}
 		

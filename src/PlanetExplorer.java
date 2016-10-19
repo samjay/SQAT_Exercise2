@@ -48,7 +48,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		if(command.equals(TURN_RIGHT)){
-			facing=EAST;
+			turnRight();
 		}else if(command.equals(TURN_LEFT)){
 			facing=WEST;
 		}

@@ -21,6 +21,10 @@ public class Planet {
 	public List<Obstacle> getObstacles() {
 		
 		return this.obstacles;
+	}
+	public void setObstacles(String obstacles2) {
+		String[] obstacleStrings=obstacles2.split(")");
+		
 	}	
 
 }

@@ -36,7 +36,7 @@ public class PlanetExplorer {
 		
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command) throws PlanetExplorerException{
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -64,14 +64,22 @@ public class PlanetExplorer {
 		return this.planet;
 	}
 	
-	private void turnRight(){
+	private void turnRight() throws PlanetExplorerException{
 		switch (facing) {
-		case NORTH:facing=EAST;
-		case EAST: facing=SOUTH;
-		case SOUTH: facing=WEST;
-		case WEST: facing= NORTH;
-		default:
+		case NORTH:
+			facing=EAST;
 			break;
+		case EAST: 
+			facing=SOUTH;
+			break;
+		case SOUTH: 
+			facing=WEST;
+			break;
+		case WEST: 
+			facing= NORTH;
+			break;
+		default:
+			throw new PlanetExplorerException();			
 		}
 	}
 }

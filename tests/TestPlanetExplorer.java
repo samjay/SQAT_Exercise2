@@ -14,7 +14,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_executeCommand_atStart_explorer_00N(){		
+	public void test_executeCommand_atStart_explorer_00N() throws PlanetExplorerException{		
 		
 		String position=explorer.executeCommand("");
 		
@@ -22,7 +22,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_executeCommand_turnRight_NtoE(){		
+	public void test_executeCommand_turnRight_NtoE() throws PlanetExplorerException{		
 		
 		String position=explorer.executeCommand("r");
 		
@@ -30,7 +30,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_executeCommand_turnLeft_NtoW(){		
+	public void test_executeCommand_turnLeft_NtoW() throws PlanetExplorerException{		
 		
 		String position=explorer.executeCommand("l");
 		
@@ -38,10 +38,10 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_executeCommand_turnRight_WtoS(){		
+	public void test_executeCommand_turnRight_EtoS() throws PlanetExplorerException{		
 		
-		explorer.executeCommand("l");
-		String position=explorer.executeCommand("l");
+		explorer.executeCommand("r");
+		String position=explorer.executeCommand("r");
 		
 		assertEquals("(0,0,S)", position);
 	}

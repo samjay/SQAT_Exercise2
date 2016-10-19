@@ -136,3 +136,11 @@ RefactoringAction 1476878114324 PlanetExplorer.java ADD void turnRight FIELD
 RefactoringAction 1476878115353 PlanetExplorer.java RENAME turnRight=>void turnRight() METHOD
 EditAction 1476878225879 PlanetExplorer.java 2224 5 11 0
 EditAction 1476878236550 PlanetExplorer.java 2224 5 11 0
+UnitTestCaseAction 1476878241092 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878241092 TestPlanetExplorer.java FAIL
+CompilationAction 1476878391091 TestPlanetExplorer.java
+CompilationAction 1476878408672 TestPlanetExplorer.java
+UnitTestCaseAction 1476878413883 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878413883 TestPlanetExplorer.java FAIL
+RefactoringAction 1476878469392 TestPlanetExplorer.java RENAME test_executeCommand_turnRight_WtoS()=>void test_executeCommand_turnRight_EtoS() METHOD
+EditAction 1476878470874 TestPlanetExplorer.java 1121 5 12 6

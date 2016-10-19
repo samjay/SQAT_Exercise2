@@ -78,4 +78,13 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(1,0,E)", position);
 	}
+	
+	@Test
+	public void test_executeCommand_movebackWardtoFacing_00Sto01S() throws PlanetExplorerException{		
+		explorer.executeCommand("r");
+		explorer.executeCommand("r");
+		String position=explorer.executeCommand("b");
+		
+		assertEquals("(0,1,S)", position);
+	}
 }

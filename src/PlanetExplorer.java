@@ -5,6 +5,7 @@
 
 public class PlanetExplorer {
 	
+	
 	private static final String NORTH = "N";
 	private static final String EAST = "E";
 	private static final String SOUTH = "S";
@@ -12,6 +13,9 @@ public class PlanetExplorer {
 	
 	private static final String TURN_LEFT = "l";
 	private static final String TURN_RIGHT = "r";
+	
+	private static final String FORWARD = "f";
+	private static final String BACKWARD = "b";	
 	
 	Planet planet;
 	Integer xCoordinate= 0;
@@ -51,9 +55,9 @@ public class PlanetExplorer {
 			turnRight();
 		}else if(command.equals(TURN_LEFT)){
 			turnLeft();
-		}else if(command.equals("f")){
-			yCoordinate++;
-		}else if(command.equals("b")){
+		}else if(command.equals(FORWARD)){
+			moveForward();
+		}else if(command.equals(BACKWARD)){
 			xCoordinate++;
 		}
 		
@@ -104,5 +108,25 @@ public class PlanetExplorer {
 		default:
 			throw new PlanetExplorerException();			
 		}
+	}
+	
+	private void moveForward() throws PlanetExplorerException {
+		switch (facing) {
+		case NORTH:
+			yCoordinate++;
+			break;
+		case EAST: 
+			xCoordinate++;
+			break;
+		case SOUTH: 
+			yCoordinate--;
+			break;
+		case WEST: 
+			xCoordinate--;
+			break;
+		default:
+			throw new PlanetExplorerException();			
+		}
+		
 	}
 }

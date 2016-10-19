@@ -191,3 +191,24 @@ RefactoringAction 1476878966075 TestPlanetExplorer.java RENAME test_executeComma
 RefactoringAction 1476878970708 TestPlanetExplorer.java RENAME test_executeCommand_moveforwardtoFacing_00Eto10N()=>void test_executeCommand_moveforwardtoFacing_00Eto10W() METHOD
 RefactoringAction 1476878972767 TestPlanetExplorer.java RENAME test_executeCommand_moveforwardtoFacing_00Eto10W()=>void test_executeCommand_moveforwardtoFacing_00Eto10E() METHOD
 EditAction 1476878982377 TestPlanetExplorer.java 1984 9 23 10
+UnitTestCaseAction 1476878988529 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878988529 TestPlanetExplorer.java FAIL
+RefactoringAction 1476879014222 PlanetExplorer.java ADD String FORWARD FIELD
+RefactoringAction 1476879035860 PlanetExplorer.java ADD String BACKWARD FIELD
+RefactoringAction 1476879043082 PlanetExplorer.java REMOVE BACKWARD FIELD
+RefactoringAction 1476879043082 PlanetExplorer.java REMOVE FORWARD FIELD
+RefactoringAction 1476879045142 PlanetExplorer.java ADD String BACKWARD FIELD
+RefactoringAction 1476879045142 PlanetExplorer.java ADD String FORWARD FIELD
+RefactoringAction 1476879048230 PlanetExplorer.java REMOVE FORWARD FIELD
+RefactoringAction 1476879049775 PlanetExplorer.java ADD String FORWARD FIELD
+RefactoringAction 1476879080554 PlanetExplorer.java ADD void moveForward() METHOD
+RefactoringAction 1476879084266 PlanetExplorer.java REMOVE moveForward() METHOD
+RefactoringAction 1476879089929 PlanetExplorer.java ADD void moveForward() METHOD
+UnitTestCaseAction 1476879185514 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476879185514 TestPlanetExplorer.java OK
+RefactoringAction 1476879193064 TestPlanetExplorer.java ADD void test_executeCommand_moveforwardtoFacing_00Eto10E()/2 METHOD
+RefactoringAction 1476879198727 TestPlanetExplorer.java RENAME test_executeCommand_moveforwardtoFacing_00Eto10E()/2=>void test_executeCommand_movebackWardtoFacing_00Eto10E() METHOD
+RefactoringAction 1476879220349 TestPlanetExplorer.java RENAME test_executeCommand_movebackWardtoFacing_00Eto10E()=>void test_executeCommand_movebackWardtoFacing_00Sto10E() METHOD
+RefactoringAction 1476879222923 TestPlanetExplorer.java RENAME test_executeCommand_movebackWardtoFacing_00Sto10E()=>void test_executeCommand_movebackWardtoFacing_00Sto00E() METHOD
+RefactoringAction 1476879226526 TestPlanetExplorer.java RENAME test_executeCommand_movebackWardtoFacing_00Sto00E()=>void test_executeCommand_movebackWardtoFacing_00Sto01S() METHOD
+EditAction 1476879247227 TestPlanetExplorer.java 2247 10 27 11

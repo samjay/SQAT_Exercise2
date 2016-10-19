@@ -39,3 +39,7 @@
 1476878931787 test-addition 1 128 true
 1476878931788 test-addition 2 128 true
 1476878931789 test-addition 1 128 true
+1476879185514 test-addition 1 244 true
+1476879185515 test-addition 2 244 true
+1476879185516 test-addition 1 244 true
+1476879185517 test-addition 2 244 true

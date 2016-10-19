@@ -28,4 +28,9 @@ public class PlanetExplorer {
 		
 		return null;
 	}
+
+	public Planet getPlanet() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

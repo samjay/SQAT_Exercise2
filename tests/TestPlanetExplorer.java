@@ -54,4 +54,12 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(0,0,S)", position);
 	}
+	
+	@Test
+	public void test_executeCommand_moveForward_00Nto01N() throws PlanetExplorerException{		
+	
+		String position=explorer.executeCommand("f");
+		
+		assertEquals("(0,1,N)", position);
+	}
 }

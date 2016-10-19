@@ -50,7 +50,7 @@ public class PlanetExplorer {
 		if(command.equals(TURN_RIGHT)){
 			turnRight();
 		}else if(command.equals(TURN_LEFT)){
-			facing=WEST;
+			turnLeft();
 		}
 		
 		return createPositionString();
@@ -77,6 +77,25 @@ public class PlanetExplorer {
 			break;
 		case WEST: 
 			facing= NORTH;
+			break;
+		default:
+			throw new PlanetExplorerException();			
+		}
+	}
+	
+	private void turnLeft() throws PlanetExplorerException{
+		switch (facing) {
+		case NORTH:
+			facing=WEST;
+			break;
+		case EAST: 
+			facing=NORTH;
+			break;
+		case SOUTH: 
+			facing=EAST;
+			break;
+		case WEST: 
+			facing= SOUTH;
 			break;
 		default:
 			throw new PlanetExplorerException();			

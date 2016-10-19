@@ -150,3 +150,20 @@ RefactoringAction 1476878485338 TestPlanetExplorer.java ADD void test_executeCom
 RefactoringAction 1476878490486 TestPlanetExplorer.java RENAME test_executeCommand_turnRight_EtoS()/2=>void test_executeCommand_turnLeft_EtoS() METHOD
 RefactoringAction 1476878494089 TestPlanetExplorer.java RENAME test_executeCommand_turnLeft_EtoS()=>void test_executeCommand_turnLeft_WtoS() METHOD
 EditAction 1476878499159 TestPlanetExplorer.java 1339 6 15 7
+UnitTestCaseAction 1476878502689 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878502689 TestPlanetExplorer.java FAIL
+RefactoringAction 1476878514841 PlanetExplorer.java ADD void turnRight()/2 METHOD
+RefactoringAction 1476878520504 PlanetExplorer.java RENAME turnRight()/2=>void turnLeft() METHOD
+UnitTestCaseAction 1476878562113 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476878562113 Rerun TestPlanetExplorer.test_executeCommand_turnLeft_WtoS OK
+UnitTestCaseAction 1476878566349 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476878566349 TestPlanetExplorer.java OK
+RefactoringAction 1476878660854 TestPlanetExplorer.java ADD void test_executeCommand_turnLeft_WtoS()/2 METHOD
+RefactoringAction 1476878668061 TestPlanetExplorer.java RENAME test_executeCommand_turnLeft_WtoS()/2=>void test_executeCommand_move_WtoS() METHOD
+RefactoringAction 1476878670635 TestPlanetExplorer.java RENAME test_executeCommand_move_WtoS()=>void test_executeCommand_moveForward_WtoS() METHOD
+RefactoringAction 1476878675269 TestPlanetExplorer.java RENAME test_executeCommand_moveForward_WtoS()=>void test_executeCommand_moveForward_() METHOD
+RefactoringAction 1476878677843 TestPlanetExplorer.java RENAME test_executeCommand_moveForward_()=>void test_executeCommand_moveForward_00() METHOD
+RefactoringAction 1476878679387 TestPlanetExplorer.java RENAME test_executeCommand_moveForward_00()=>void test_executeCommand_moveForward_00N() METHOD
+RefactoringAction 1476878684020 TestPlanetExplorer.java RENAME test_executeCommand_moveForward_00N()=>void test_executeCommand_moveForward_00Nto() METHOD
+RefactoringAction 1476878688653 TestPlanetExplorer.java RENAME test_executeCommand_moveForward_00Nto()=>void test_executeCommand_moveForward_00Nto01N() METHOD
+EditAction 1476878728371 TestPlanetExplorer.java 1531 7 17 8

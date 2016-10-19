@@ -5,3 +5,5 @@
 1476877723084 test-first 3 59 true
 1476877961565 production 3 209 true
 1476878478848 test-first 3 470 true
+1476878562113 test-addition 2 76 false
+1476878566349 regression 1 0 false
